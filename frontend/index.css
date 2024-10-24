@@ -5,7 +5,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #e0f2ff; /* Light blue background */
 }
 
 .container {
@@ -17,31 +17,34 @@ body {
 }
 
 textarea {
-    width: calc(100% - 22px); /* Account for padding and border */
+    width: calc(100% - 22px);
     height: 120px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #add8e6; /* Light blue border */
     border-radius: 4px;
     resize: vertical;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box;
 }
 
 select, button {
     padding: 8px 12px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #add8e6; /* Light blue border */
     border-radius: 4px;
     cursor: pointer;
+    background-color: #64b5f6; /* Blue background for buttons and select */
+    color: white;
 }
 
 .translated-text {
-    border: 1px solid #ccc;
+    border: 1px solid #add8e6; /* Light blue border */
     padding: 10px;
     margin-bottom: 10px;
     min-height: 80px;
     border-radius: 4px;
-    text-align: left; /* Align translated text to the left */
-    white-space: pre-wrap; /* Preserve whitespace and wrap text */
+    text-align: left;
+    white-space: pre-wrap;
+    background-color: #f0f8ff; /* Very light blue background for translated text */
 }
 
