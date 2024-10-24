@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+textarea {
+    width: calc(100% - 22px); /* Account for padding and border */
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+select, button {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.translated-text {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 80px;
+    border-radius: 4px;
+    text-align: left; /* Align translated text to the left */
+    white-space: pre-wrap; /* Preserve whitespace and wrap text */
+}
+
