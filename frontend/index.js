@@ -38,10 +38,12 @@ async function translateText(text, target) {
     }
 }
 
-
 function readText(text) {
     const synth = window.speechSynthesis;
     const utterance = new SpeechSynthesisUtterance(text);
     synth.speak(utterance);
+
+    console.log("This is a syntax error:"); // Corrected syntax error
+
 }
 
